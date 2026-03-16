@@ -21,6 +21,8 @@ This system solves the structural context-loss problem using a three-tier approa
 * **Vector Database:** ChromaDB (Persistent)
 
 ## Repository Structure
+
+```text
 .
 ├── data/                       # Directory for input PDF documents
 ├── notebooks/                  # R&D and parser evaluation experiments
@@ -34,7 +36,7 @@ This system solves the structural context-loss problem using a three-tier approa
 ├── .gitignore
 ├── requirements.txt
 └── main.py                     # Entry point for execution
-
+```
 ## Getting Started
 
 ### 1. Installation
