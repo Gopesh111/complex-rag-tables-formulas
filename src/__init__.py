@@ -1,18 +1,17 @@
 """
 Core Source Module for Table-Aware RAG Pipeline.
-Exposing key classes for cleaner imports in main.py.
+Exposes key classes for clean and professional imports.
 """
 
 from .parser import DocumentParser
+from .chunker import TableAwareChunker
 from .pipeline import RAGPipeline
-
-# Optional: You can also expose sub-modules if needed
-# from .chunker import TableAwareChunker 
+from .retriever import AdvancedTableRetriever
 
 __all__ = [
     "DocumentParser",
+    "TableAwareChunker",
     "RAGPipeline",
+    "AdvancedTableRetriever"
 ]
 
-# This ensures that when someone does 'from src import *', 
-# only these classes are exposed.
