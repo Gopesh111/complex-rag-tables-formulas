@@ -23,9 +23,7 @@ This system solves the structural context-loss problem using a three-tier approa
 ## Repository Structure
 
 ```text
-.
-├── data/                       # Directory for input PDF documents
-├── notebooks/                  # R&D and parser evaluation experiments
+.                 
 ├── src/
 │   ├── __init__.py
 │   ├── parser.py               # Markdown and fallback parsing logic
