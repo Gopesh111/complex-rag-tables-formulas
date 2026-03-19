@@ -23,6 +23,7 @@ This system solves the structural context-loss problem using a robust, four-tier
 
 ## Repository Structure
 
+```text
 ├── src/
 │   ├── __init__.py
 │   ├── parser.py               # Markdown and fallback parsing logic
@@ -34,7 +35,6 @@ This system solves the structural context-loss problem using a robust, four-tier
 ├── .gitignore
 ├── requirements.txt            # Pinned dependencies for reproducible environments
 └── main.py                     # Entry point for execution
-
 ## Getting Started
 
 ### 1. Installation
