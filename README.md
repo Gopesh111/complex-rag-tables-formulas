@@ -15,11 +15,14 @@ This system solves the structural context-loss problem using a robust, four-tier
 4. Natural Language Context Enrichment: Extracts raw markdown tables and dynamically converts them into descriptive, row-wise English sentences before vectorization. This dual-representation drastically reduces LLM hallucinations and boosts semantic similarity search accuracy.
 
 ## Tech Stack
-* Framework: LlamaIndex
-* Parsing: Docling, pdfplumber (Fallback)
-* LLM: Groq (Llama-3-70b)
-* Embeddings: HuggingFace (BAAI/bge-small-en-v1.5)
-* Vector Database: ChromaDB (Persistent)
+* Language: Python  
+* Framework / Orchestration: LlamaIndex  
+* Parsing & Ingestion: Docling, pdfplumber (Fallback)  
+* LLM: Groq (LLaMA-3-70B)  
+* Embeddings: HuggingFace (BAAI/bge-small-en-v1.5)  
+* Vector Database: FAISS (primary), ChromaDB (persistent storage)  
+* Search: Semantic Search with Vector Similarity  
+* Deployment & Environment: Docker  
 
 ## Repository Structure
 
